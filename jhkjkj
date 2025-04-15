@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>AI 聊天小程序</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .chat-message {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: #e0f7fa;
+            align-self: flex-end;
+        }
+
+        .ai-message {
+            background-color: #f1f8e9;
+            align-self: flex-start;
+        }
+    </style>
